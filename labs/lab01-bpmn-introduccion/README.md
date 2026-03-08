@@ -156,6 +156,30 @@ Archivo:
 
 ---
 
+### 05 — Introducción a DMN
+
+Qué es DMN, tablas de decisión y uso desde BPMN (Business Rule Task).
+
+Archivo:
+
+```
+05-dmn-introduccion.md
+```
+
+---
+
+### 06 — Introducción a CMMN
+
+Qué es CMMN, casos frente a procesos y cuándo usar cada estándar.
+
+Archivo:
+
+```
+06-cmmn-introduccion.md
+```
+
+---
+
 # 🧪 Resultado esperado
 
 Al finalizar este laboratorio se habrá creado el primer modelo BPMN del curso.
