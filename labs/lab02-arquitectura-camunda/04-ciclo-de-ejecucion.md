@@ -21,23 +21,13 @@ En este ejercicio vamos a **iniciar una instancia de proceso y observar su ejecu
 
 # Verificar que existe un proceso BPMN
 
-Ir al directorio:
-
-```id="h1r0xw"
-src/main/resources/processes
-```
-
-Verificar que existe al menos un archivo BPMN, por ejemplo:
-
-```id="24obcc"
-approval.bpmn
-```
+En el **explorador** de VS Code, dentro de **backend**, entra en **src** → **main** → **resources** → **processes** (si no existe la carpeta processes, créala al copiar un BPMN en el lab de despliegue). Comprueba que hay al menos un archivo BPMN, por ejemplo **approval.bpmn** o **approval-process.bpmn**.
 
 ---
 
 # Verificar que el proceso es ejecutable
 
-Abrir el archivo BPMN y comprobar que contiene:
+Abre ese archivo BPMN (clic en el explorador o **Ctrl+P** y el nombre del archivo). En el contenido XML comprueba que aparece algo como:
 
 ```xml id="8ukvmb"
 <bpmn:process id="approval" isExecutable="true">

@@ -23,13 +23,13 @@ Para entender cómo funciona Camunda es importante identificar los **componentes
 
 ## ▶️ Arrancar la aplicación
 
-Ir al directorio del backend:
+Abre una **terminal** (menú **Terminal** → **New Terminal**). Desde la **raíz del repositorio** (donde están **labs** y **backend**), ejecuta:
 
 ```bash
 cd backend
 ```
 
-Ejecutar la aplicación:
+Luego ejecuta la aplicación:
 
 ```bash
 mvn spring-boot:run
