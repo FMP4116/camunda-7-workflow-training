@@ -23,13 +23,7 @@ En este ejercicio vamos a **identificar y modificar algunos de estos elementos**
 
 ## 📍 Abrir el modelo BPMN
 
-Abrir el archivo:
-
-```
-model/proceso-ejemplo.bpmn
-```
-
-Si el editor BPMN está instalado, se mostrará el diagrama visual del proceso.
+En el **explorador de archivos** de VS Code (barra lateral izquierda), entra en la carpeta **model** y haz clic en **proceso-ejemplo.bpmn**. Si no existe ese archivo, usa cualquier otro `.bpmn` que tengas en `model/` (por ejemplo el que creaste en el paso 03). Si no tienes ninguno, haz antes el paso 03. Si la extensión BPMN está instalada, se abrirá el diagrama visual; si solo ves XML, cambia a la vista de diagrama que ofrezca la extensión o abre el archivo en Camunda Modeler.
 
 ---
 
@@ -108,27 +102,15 @@ Fin del proceso
 
 ## ✏️ Modificar el proceso
 
-Modificar el modelo realizando el siguiente cambio.
+Vamos a cambiar el nombre de una actividad. Asegúrate de estar viendo el **diagrama** (no solo el XML): en VS Code la extensión BPMN suele mostrar una vista gráfica; si no la ves, abre el archivo en Camunda Modeler. En el diagrama, **haz doble clic** sobre la actividad que se llama **Revisar solicitud** (o selecciónala con un clic y mira el **panel de propiedades**, que suele estar a la derecha; si no lo ves, en Camunda Modeler prueba **Window** → **Show Properties**). Donde pone "Name" o "Nombre", sustituye por **Validar solicitud**.
 
-Cambiar el nombre de la actividad:
-
-```
-Revisar solicitud
-```
-
-por:
-
-```
-Validar solicitud
-```
-
-Guardar el archivo después de realizar el cambio.
+Guarda el archivo (**Ctrl + S** en VS Code, o **File** → **Save** en Camunda Modeler).
 
 ---
 
 ## 🔎 Verificar el cambio
 
-Después de guardar el archivo comprobar que el diagrama muestra el nuevo nombre de la actividad.
+Después de guardar, mira de nuevo el diagrama: la actividad debería mostrar **Validar solicitud** en lugar de "Revisar solicitud".
 
 El proceso ahora debería verse así:
 

@@ -20,21 +20,11 @@ En este paso vamos a:
 
 ## 📥 Abrir el modelo de ejemplo
 
-Ir al directorio:
+En **VS Code**, en el **explorador de archivos de la izquierda** (si no lo ves, menú **View** → **Explorer** o el icono de la carpeta en la barra lateral), localiza la carpeta **model**. Dentro verás uno o más archivos con extensión **.bpmn**. Haz clic en uno para abrirlo.
 
-```
-model
-```
+**Si la carpeta model está vacía o no tiene ningún .bpmn:** haz primero el paso **03 (Crear primer proceso)** para crear tu primer diagrama; luego vuelve a este paso y ábrelo para identificar los elementos. Si el repositorio trae un archivo de ejemplo con otro nombre, ábrelo.
 
-Abrir el archivo BPMN disponible en ese directorio.
-
-El archivo tendrá extensión:
-
-```
-.bpmn
-```
-
-Si el editor BPMN está instalado, VS Code mostrará el **diagrama del proceso**.
+Si tienes instalada la extensión BPMN, en lugar del XML verás el **diagrama del proceso** (vista gráfica). Si solo ves código, comprueba que la extensión BPMN esté instalada y que el archivo tenga extensión `.bpmn`.
 
 ---
 
