@@ -28,10 +28,10 @@ Esto permite que los procesos estén versionados junto al código.
 
 # Verificar el directorio de procesos
 
-Abrir el directorio del backend:
+Abrir el directorio de workflow-app:
 
 ```
-backend/src/main/resources
+workflow-app/src/main/resources
 ```
 
 Debería existir el directorio:
@@ -43,7 +43,7 @@ processes
 Listar su contenido:
 
 ```bash
-ls backend/src/main/resources/processes
+ls workflow-app/src/main/resources/processes
 ```
 
 Debería aparecer el modelo creado anteriormente:
@@ -56,7 +56,7 @@ approval-process.bpmn
 
 # Arrancar la aplicación
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Ejecutar la aplicación:
 
@@ -169,10 +169,10 @@ Approval Process V2
 
 Guardar el archivo.
 
-Copiar nuevamente el modelo al backend:
+Copiar nuevamente el modelo a workflow-app:
 
 ```bash
-cp model/approval-process.bpmn backend/src/main/resources/processes/
+cp model/approval-process.bpmn workflow-app/src/main/resources/processes/
 ```
 
 Reiniciar la aplicación.

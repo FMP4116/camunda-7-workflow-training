@@ -31,7 +31,7 @@ Tasklist es la interfaz utilizada por los **usuarios del negocio** para interact
 Arrancar la aplicación si no está en ejecución:
 
 ```bash id="q5b9ok"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

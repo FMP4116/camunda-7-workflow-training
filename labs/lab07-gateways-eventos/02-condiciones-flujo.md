@@ -85,19 +85,19 @@ model/approval-process.bpmn
 
 ---
 
-# Copiar el modelo al backend
+# Copiar el modelo a workflow-app
 
 Actualizar el modelo desplegado:
 
 ```bash id="0m0c9r"
-cp model/approval-process.bpmn backend/src/main/resources/processes/
+cp model/approval-process.bpmn workflow-app/src/main/resources/processes/
 ```
 
 ---
 
 # Ejecutar la aplicación
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Ejecutar la aplicación:
 

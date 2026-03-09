@@ -60,19 +60,19 @@ model/approval-process.bpmn
 
 ---
 
-# Copiar el modelo al backend
+# Copiar el modelo a workflow-app
 
-Actualizar el modelo desplegado en el backend:
+Actualizar el modelo desplegado en workflow-app:
 
 ```bash id="j6g1oz"
-cp model/approval-process.bpmn backend/src/main/resources/processes/
+cp model/approval-process.bpmn workflow-app/src/main/resources/processes/
 ```
 
 ---
 
 # Reiniciar la aplicación
 
-En la terminal, desde la raíz del repo: `cd backend`. Arranca la aplicación:
+En la terminal, desde la raíz del repo: `cd workflow-app`. Arranca la aplicación:
 
 ```bash id="w4n5lp"
 mvn spring-boot:run

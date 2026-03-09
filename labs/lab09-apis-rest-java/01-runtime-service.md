@@ -36,7 +36,7 @@ Se utiliza habitualmente desde aplicaciones Java para controlar la ejecución de
 Abrir la clase principal de la aplicación:
 
 ```
-backend/src/main/java/com/example/workflow/WorkflowAppApplication.java
+workflow-app/src/main/java/com/example/workflow/WorkflowAppApplication.java
 ```
 
 En esta clase ya se utiliza el servicio:
@@ -54,7 +54,7 @@ Este servicio es proporcionado automáticamente por **Spring Boot y Camunda**.
 Crear el siguiente archivo:
 
 ```
-backend/src/main/java/com/example/workflow/service/RuntimeExplorer.java
+workflow-app/src/main/java/com/example/workflow/service/RuntimeExplorer.java
 ```
 
 ---
@@ -118,7 +118,7 @@ El resultado se mostrará en la consola.
 
 # Compilar el proyecto
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Compilar el proyecto:
 

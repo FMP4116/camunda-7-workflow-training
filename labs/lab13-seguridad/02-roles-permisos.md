@@ -31,7 +31,7 @@ Los permisos se asignan normalmente a **usuarios o grupos**.
 Arrancar la aplicación si no está en ejecución:
 
 ```bash id="7g6a3f"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

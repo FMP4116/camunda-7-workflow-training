@@ -4,6 +4,8 @@
 
 Observar cómo el motor Camunda ejecuta un proceso BPMN iniciando una instancia de proceso desde la aplicación.
 
+**Requisito:** Necesitas tener **Camunda instalado** (lab03) y al menos un proceso BPMN desplegado. Si aún no has llegado a ese punto, completa el lab03 y el lab de despliegue y vuelve aquí.
+
 ---
 
 ## 🧠 Contexto
@@ -21,7 +23,7 @@ En este ejercicio vamos a **iniciar una instancia de proceso y observar su ejecu
 
 # Verificar que existe un proceso BPMN
 
-En el **explorador** de VS Code, dentro de **backend**, entra en **src** → **main** → **resources** → **processes** (si no existe la carpeta processes, créala al copiar un BPMN en el lab de despliegue). Comprueba que hay al menos un archivo BPMN, por ejemplo **approval.bpmn** o **approval-process.bpmn**.
+En el **explorador** de VS Code, dentro de **workflow-app**, entra en **src** → **main** → **resources** → **processes** (si no existe la carpeta processes, créala al copiar un BPMN en el lab de despliegue). Comprueba que hay al menos un archivo BPMN, por ejemplo **approval.bpmn** o **approval-process.bpmn**.
 
 ---
 

@@ -15,7 +15,7 @@ Ambas permiten modelar procesos; **Camunda Modeler es la herramienta oficial rec
 
 En el laboratorio anterior vimos la extensión BPMN en VS Code: sirve para ver y editar diagramas BPMN sin salir del editor.
 
-En entornos profesionales se suele usar **Camunda Modeler**, la herramienta oficial de Camunda. Los dos trabajan con archivos `.bpmn`, así que lo que crees en uno puedes abrirlo en el otro.
+En entornos profesionales se suele usar **Camunda Modeler**, la herramienta oficial de Camunda. Los dos trabajan con archivos `.bpmn`, así que lo que crees en uno puedes abrirlo en el otro. **Este lab es 100 % modelado**: no se requiere que el backend tenga Camunda instalado; eso se hace en el lab03.
 
 ---
 

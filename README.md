@@ -152,10 +152,9 @@ Cada laboratorio modifica la aplicación desarrollada previamente, de forma que 
 
 # Cómo seguir el curso
 
-1. Abrir el repositorio en **GitHub Codespaces**
-2. Acceder al directorio `labs/`
-3. Ejecutar los laboratorios en orden
-4. Implementar los cambios en la aplicación
+1. Abrir el repositorio en **GitHub Codespaces** (o en tu máquina con Java 17 y Maven).
+2. Empezar por **lab00** (entorno): verificar Java 17 y Maven, luego crear **workflow-app** con una base mínima (solo web) y validar compilación y arranque. En **lab03** se añaden Camunda, JPA y H2 al pom **uno a uno**, validando en cada paso como en un proceso real de instalación.
+3. Seguir los laboratorios en orden desde `labs/` e implementar los cambios en la aplicación.
 
 Los laboratorios están diseñados para ser **completados de forma secuencial**, ya que cada uno depende del anterior.
 

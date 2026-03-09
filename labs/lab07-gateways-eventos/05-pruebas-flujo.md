@@ -49,7 +49,7 @@ En este ejercicio se probará el comportamiento completo del flujo.
 
 # Arrancar la aplicación
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Ejecutar la aplicación:
 

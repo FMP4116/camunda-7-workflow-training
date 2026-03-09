@@ -4,6 +4,8 @@
 
 Acceder al **Process Engine de Camunda desde código Java** para explorar los servicios disponibles del motor.
 
+**Requisito:** Este paso requiere tener ya **Camunda instalado** en el proyecto (lab03, paso 02). Si aún no has añadido la dependencia, ve al **lab03**, añade el motor y las dependencias, y luego vuelve aquí.
+
 ---
 
 ## 🧠 Contexto
@@ -67,7 +69,7 @@ public CommandLineRunner inspectEngine(ProcessEngine processEngine) {
 
 # Ejecutar la aplicación
 
-Desde el directorio `backend` ejecutar:
+Desde el directorio `workflow-app` ejecutar:
 
 ```bash id="8sl18c"
 mvn spring-boot:run

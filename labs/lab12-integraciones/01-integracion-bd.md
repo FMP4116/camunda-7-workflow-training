@@ -39,7 +39,7 @@ Base de datos H2
 Crear el archivo:
 
 ```id="i9p9cz"
-backend/src/main/java/com/example/workflow/entity/Solicitud.java
+workflow-app/src/main/java/com/example/workflow/entity/Solicitud.java
 ```
 
 ---
@@ -103,7 +103,7 @@ public class Solicitud {
 Crear el archivo:
 
 ```id="cw9e36"
-backend/src/main/java/com/example/workflow/repository/SolicitudRepository.java
+workflow-app/src/main/java/com/example/workflow/repository/SolicitudRepository.java
 ```
 
 ---
@@ -173,7 +173,7 @@ public class ValidarSolicitudDelegate implements JavaDelegate {
 
 # Compilar el proyecto
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Compilar:
 
@@ -185,7 +185,7 @@ mvn clean package
 
 # Ejecutar la aplicación
 
-Arrancar el backend:
+Arrancar workflow-app:
 
 ```bash id="clg3vo"
 mvn spring-boot:run

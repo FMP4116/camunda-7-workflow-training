@@ -23,7 +23,7 @@ Ahora vamos a ejecutar el proceso completo para comprobar cómo el motor Camunda
 
 # Arrancar la aplicación
 
-Abre una **terminal**. Desde la **raíz del repositorio** ejecuta `cd backend` y luego arranca la aplicación:
+Abre una **terminal**. Desde la **raíz del repositorio** ejecuta `cd workflow-app` y luego arranca la aplicación:
 
 ```bash
 mvn spring-boot:run

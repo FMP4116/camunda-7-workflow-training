@@ -39,7 +39,7 @@ Admin
 Arrancar la aplicación:
 
 ```bash id="n4a5jd"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 
@@ -244,7 +244,7 @@ Camunda permite ejecutar estos tests utilizando el motor embebido dentro del tes
 Crear el archivo:
 
 ```id="g9k2o1"
-backend/src/test/java/com/example/workflow/ProcesoApprovalTest.java
+workflow-app/src/test/java/com/example/workflow/ProcesoApprovalTest.java
 ```
 
 ---
@@ -288,7 +288,7 @@ Este test verifica que el proceso puede iniciarse correctamente.
 
 # Ejecutar los tests
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Ejecutar los tests:
 

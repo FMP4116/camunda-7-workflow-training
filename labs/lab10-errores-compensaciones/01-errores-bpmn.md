@@ -86,10 +86,10 @@ Guardar el archivo:
 model/approval-process.bpmn
 ```
 
-Copiar el modelo al backend:
+Copiar el modelo a workflow-app:
 
 ```bash
-cp model/approval-process.bpmn backend/src/main/resources/processes/
+cp model/approval-process.bpmn workflow-app/src/main/resources/processes/
 ```
 
 ---
@@ -142,7 +142,7 @@ IMPORTE_INVALIDO
 
 # Compilar el proyecto
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Compilar:
 
@@ -154,7 +154,7 @@ mvn clean package
 
 # Ejecutar la aplicación
 
-Arrancar el backend:
+Arrancar workflow-app:
 
 ```bash
 mvn spring-boot:run

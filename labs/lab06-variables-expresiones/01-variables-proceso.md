@@ -36,7 +36,7 @@ estadoSolicitud
 
 # Abrir el JavaDelegate
 
-En el **explorador** de VS Code entra en **backend** → **src** → **main** → **java** y localiza la clase **ValidarSolicitudDelegate.java** (suele estar en un paquete **delegate** dentro de workflow). Ábrela. O usa **Ctrl+P** y escribe `ValidarSolicitudDelegate`.
+En el **explorador** de VS Code entra en **workflow-app** → **src** → **main** → **java** y localiza la clase **ValidarSolicitudDelegate.java** (suele estar en un paquete **delegate** dentro de workflow). Ábrela. O usa **Ctrl+P** y escribe `ValidarSolicitudDelegate`.
 
 ---
 
@@ -85,7 +85,7 @@ Esta variable quedará disponible para el resto del proceso.
 
 # Compilar el proyecto
 
-Abre una **terminal**. Desde la **raíz del repositorio** ejecuta `cd backend` y luego:
+Abre una **terminal**. Desde la **raíz del repositorio** ejecuta `cd workflow-app` y luego:
 
 Compilar el proyecto:
 

@@ -26,7 +26,7 @@ Es la herramienta que utilizarán normalmente los **operadores o administradores
 
 # Arrancar la aplicación
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Arrancar la aplicación:
 

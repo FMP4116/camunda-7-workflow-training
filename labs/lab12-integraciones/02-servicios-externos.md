@@ -30,7 +30,7 @@ En este ejercicio se simulará una llamada a un servicio externo desde un `JavaD
 Crear el archivo:
 
 ```id="60nh3v"
-backend/src/main/java/com/example/workflow/service/ServicioValidacion.java
+workflow-app/src/main/java/com/example/workflow/service/ServicioValidacion.java
 ```
 
 ---
@@ -110,7 +110,7 @@ public class ValidarSolicitudDelegate implements JavaDelegate {
 
 # Compilar el proyecto
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Compilar:
 
@@ -122,7 +122,7 @@ mvn clean package
 
 # Ejecutar la aplicación
 
-Arrancar el backend:
+Arrancar workflow-app:
 
 ```bash id="j9b0kp"
 mvn spring-boot:run
@@ -204,7 +204,7 @@ En este ejercicio se simulará una llamada a un servicio externo desde un `JavaD
 Crear el archivo:
 
 ```id="60nh3v"
-backend/src/main/java/com/example/workflow/service/ServicioValidacion.java
+workflow-app/src/main/java/com/example/workflow/service/ServicioValidacion.java
 ```
 
 ---
@@ -284,7 +284,7 @@ public class ValidarSolicitudDelegate implements JavaDelegate {
 
 # Compilar el proyecto
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Compilar:
 
@@ -296,7 +296,7 @@ mvn clean package
 
 # Ejecutar la aplicación
 
-Arrancar el backend:
+Arrancar workflow-app:
 
 ```bash id="j9b0kp"
 mvn spring-boot:run

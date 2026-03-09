@@ -101,10 +101,10 @@ Guardar el archivo:
 model/approval-process.bpmn
 ```
 
-Copiar el modelo al backend:
+Copiar el modelo a workflow-app:
 
 ```bash id="t8v7fl"
-cp model/approval-process.bpmn backend/src/main/resources/processes/
+cp model/approval-process.bpmn workflow-app/src/main/resources/processes/
 ```
 
 ---
@@ -128,7 +128,7 @@ El proceso quedará esperando hasta que un worker externo procese la tarea.
 Arrancar la aplicación:
 
 ```bash id="0ne9o7"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

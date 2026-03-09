@@ -32,7 +32,7 @@ Esto crea una **nueva instancia del proceso BPMN**.
 Crear el archivo:
 
 ```
-backend/src/main/java/com/example/workflow/service/ProcessStarter.java
+workflow-app/src/main/java/com/example/workflow/service/ProcessStarter.java
 ```
 
 ---
@@ -102,7 +102,7 @@ La instancia del proceso se creará automáticamente.
 
 # Compilar el proyecto
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Compilar:
 
@@ -114,7 +114,7 @@ mvn clean package
 
 # Ejecutar la aplicación
 
-Arrancar el backend:
+Arrancar workflow-app:
 
 ```bash
 mvn spring-boot:run

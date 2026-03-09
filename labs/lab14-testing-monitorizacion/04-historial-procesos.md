@@ -35,7 +35,7 @@ monitorización operativa
 Arrancar la aplicación si no está en ejecución:
 
 ```bash id="c3v8s1"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

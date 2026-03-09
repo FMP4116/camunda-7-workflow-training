@@ -34,7 +34,7 @@ El endpoint base suele ser:
 Arrancar la aplicación:
 
 ```bash
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

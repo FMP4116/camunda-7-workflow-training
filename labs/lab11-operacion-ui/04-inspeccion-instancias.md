@@ -29,7 +29,7 @@ Cockpit permite inspeccionar todos estos elementos para entender **qué está oc
 Arrancar la aplicación si no está en ejecución:
 
 ```bash id="mhtq2u"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

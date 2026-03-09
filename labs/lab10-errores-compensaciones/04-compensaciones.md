@@ -146,10 +146,10 @@ Guardar el archivo:
 model/approval-process.bpmn
 ```
 
-Copiar el modelo al backend:
+Copiar el modelo a workflow-app:
 
 ```bash
-cp model/approval-process.bpmn backend/src/main/resources/processes/
+cp model/approval-process.bpmn workflow-app/src/main/resources/processes/
 ```
 
 ---
@@ -159,7 +159,7 @@ cp model/approval-process.bpmn backend/src/main/resources/processes/
 Crear el archivo:
 
 ```
-backend/src/main/java/com/example/workflow/delegate/CancelarRegistroDelegate.java
+workflow-app/src/main/java/com/example/workflow/delegate/CancelarRegistroDelegate.java
 ```
 
 ---
@@ -214,7 +214,7 @@ ${cancelarRegistroDelegate}
 Arrancar la aplicación:
 
 ```bash
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

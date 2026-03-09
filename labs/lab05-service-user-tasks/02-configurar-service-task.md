@@ -82,19 +82,19 @@ model/approval-process.bpmn
 
 ---
 
-# Copiar el modelo al backend
+# Copiar el modelo a workflow-app
 
-Desde la **raíz del repositorio** (donde están **labs**, **backend** y **model**) ejecuta en la terminal:
+Desde la **raíz del repositorio** (donde están **labs**, **workflow-app** y **model**) ejecuta en la terminal:
 
 ```bash
-cp model/approval-process.bpmn backend/src/main/resources/processes/
+cp model/approval-process.bpmn workflow-app/src/main/resources/processes/
 ```
 
 ---
 
 # Ejecutar la aplicación
 
-En la terminal, `cd backend` (desde la raíz del repo) y luego ejecuta:
+En la terminal, `cd workflow-app` (desde la raíz del repo) y luego ejecuta:
 
 ```bash
 mvn spring-boot:run

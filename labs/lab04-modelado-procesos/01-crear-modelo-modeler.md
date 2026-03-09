@@ -42,7 +42,7 @@ El **pool principal** es el rectángulo que engloba todo el flujo (a veces tiene
 
 # Verificar el archivo creado
 
-Abre una **terminal** en VS Code (Terminal → New Terminal). Desde la **raíz del repositorio** (donde están **labs**, **backend** y **model**) ejecuta:
+Abre una **terminal** en VS Code (Terminal → New Terminal). Desde la **raíz del repositorio** (donde están **labs**, **workflow-app** y **model**) ejecuta:
 
 ```bash
 ls model

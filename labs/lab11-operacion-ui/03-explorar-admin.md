@@ -34,7 +34,7 @@ Esto permite controlar **quién puede acceder a Tasklist, Cockpit o a determinad
 Arrancar la aplicación si no está en ejecución:
 
 ```bash id="2d7kz3"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

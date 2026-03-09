@@ -23,7 +23,7 @@ Esto permite enviar **datos de negocio al proceso** desde el inicio.
 
 # Abrir la clase que inicia el proceso
 
-En el **explorador** de VS Code entra en **backend** → **src** → **main** → **java** y abre la clase principal de la aplicación (por ejemplo **WorkflowAppApplication.java**; usa **Ctrl+P** y escribe el nombre si no la ves). Busca el código donde se inicia el proceso:
+En el **explorador** de VS Code entra en **workflow-app** → **src** → **main** → **java** y abre la clase principal de la aplicación (por ejemplo **WorkflowAppApplication.java**; usa **Ctrl+P** y escribe el nombre si no la ves). Busca el código donde se inicia el proceso:
 
 ```java
 runtimeService.startProcessInstanceByKey("approval-process");
@@ -84,7 +84,7 @@ public CommandLineRunner startProcess(RuntimeService runtimeService) {
 
 # Compilar el proyecto
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Compilar el proyecto:
 

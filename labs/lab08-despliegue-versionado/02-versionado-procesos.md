@@ -92,16 +92,16 @@ Guardar el archivo.
 
 # Desplegar la nueva versión
 
-Copiar el modelo actualizado al backend:
+Copiar el modelo actualizado a workflow-app:
 
 ```bash
-cp model/approval-process.bpmn backend/src/main/resources/processes/
+cp model/approval-process.bpmn workflow-app/src/main/resources/processes/
 ```
 
 Reiniciar la aplicación.
 
 ```bash
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

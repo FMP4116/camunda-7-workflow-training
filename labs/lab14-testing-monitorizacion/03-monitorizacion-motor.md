@@ -32,7 +32,7 @@ Cockpit
 Arrancar la aplicación si no está en ejecución:
 
 ```bash id="c3m5z2"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

@@ -44,7 +44,7 @@ Aprobar solicitud
 Fin
 ```
 
-Durante este curso, estos modelos BPMN se ejecutarán dentro del **motor Camunda**.
+Durante este curso, estos modelos BPMN se ejecutarán más adelante en el **motor Camunda**. En este lab solo se trabaja con **BPMN**: se usa el **Camunda Modeler** (o un editor BPMN); **no hace falta tener Camunda instalado en el backend** todavía.
 
 ---
 

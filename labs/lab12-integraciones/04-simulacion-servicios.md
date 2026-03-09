@@ -30,7 +30,7 @@ En este ejercicio se simulará ese worker mediante llamadas REST.
 
 # Arrancar la aplicación
 
-En la **terminal**, desde la **raíz del repositorio** ejecuta `cd backend`. Luego:
+En la **terminal**, desde la **raíz del repositorio** ejecuta `cd workflow-app`. Luego:
 
 Arrancar el servidor:
 

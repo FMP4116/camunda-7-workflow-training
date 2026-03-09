@@ -39,7 +39,7 @@ En este ejercicio se configurarán permisos sobre **tareas humanas del proceso**
 Arrancar la aplicación si no está en ejecución:
 
 ```bash id="bnt2t4"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

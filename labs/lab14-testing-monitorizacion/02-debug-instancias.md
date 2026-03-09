@@ -28,7 +28,7 @@ En este ejercicio se utilizará el **debugger de Java** para observar la ejecuci
 Abrir el archivo:
 
 ```id="w1k2d9"
-backend/src/main/java/com/example/workflow/delegate/ValidarSolicitudDelegate.java
+workflow-app/src/main/java/com/example/workflow/delegate/ValidarSolicitudDelegate.java
 ```
 
 Localizar el método:

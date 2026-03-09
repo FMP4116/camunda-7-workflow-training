@@ -28,7 +28,7 @@ Un **Incident** indica que el proceso no puede continuar hasta que el problema s
 Arrancar la aplicación:
 
 ```bash id="tvdfgt"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 
@@ -163,7 +163,7 @@ System.out.println("Validación completada correctamente");
 # Reiniciar la aplicación
 
 ```bash id="nq2hdy"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

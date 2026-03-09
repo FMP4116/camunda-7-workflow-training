@@ -37,7 +37,7 @@ Las tareas BPMN pueden asignarse a **usuarios o grupos**.
 Arrancar la aplicación si no está en ejecución:
 
 ```bash id="taziv6"
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

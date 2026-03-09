@@ -29,7 +29,7 @@ En este ejercicio se utilizará la **REST API** para consultar instancias activa
 Arrancar la aplicación:
 
 ```bash
-cd backend
+cd workflow-app
 mvn spring-boot:run
 ```
 

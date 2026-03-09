@@ -26,12 +26,12 @@ Por lo tanto, para que el motor pueda ejecutar el proceso es necesario copiar el
 
 ---
 
-# Copiar el modelo BPMN al backend
+# Copiar el modelo BPMN a workflow-app
 
-Abre una **terminal**. Desde la **raíz del repositorio** (donde están **labs**, **backend** y **model**) ejecuta:
+Abre una **terminal**. Desde la **raíz del repositorio** (donde están **labs**, **workflow-app** y **model**) ejecuta:
 
 ```bash
-cp model/approval-process.bpmn backend/src/main/resources/processes/
+cp model/approval-process.bpmn workflow-app/src/main/resources/processes/
 ```
 
 ---
@@ -41,7 +41,7 @@ cp model/approval-process.bpmn backend/src/main/resources/processes/
 Ejecutar:
 
 ```bash
-ls backend/src/main/resources/processes
+ls workflow-app/src/main/resources/processes
 ```
 
 Debería aparecer el archivo:
@@ -54,7 +54,7 @@ approval-process.bpmn
 
 # Arrancar la aplicación
 
-En la terminal, desde la raíz del repo: `cd backend`. Luego arranca la aplicación:
+En la terminal, desde la raíz del repo: `cd workflow-app`. Luego arranca la aplicación:
 
 ```bash
 mvn spring-boot:run
